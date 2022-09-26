@@ -43,7 +43,7 @@ function execRegex(valores) {
   return resultados;
 }
 
-function result(resultado, index, lastIndex, mostrarIndex) {
+function result2(resultado, index, lastIndex, mostrarIndex) {
   let textoIndex = mostrarIndex ? ' [' + index + '-' + lastIndex + ']' : '';
 
   return {
